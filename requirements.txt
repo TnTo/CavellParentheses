@@ -1,0 +1,6 @@
+nltk
+pandas
+scipy
+tabulate
+Unidecode
+seaborn
