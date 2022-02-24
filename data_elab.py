@@ -36,7 +36,7 @@ for author in dfs:
                 label=f"tab:{author}",
                 column_format="rrll",
                 longtable=True,
-                position="h",
+                position="!h",
                 multicolumn=True,
             )
         latex += "\n"
@@ -234,7 +234,7 @@ for title in dfs:
                 label=f"tab:CavellCorpus",
                 column_format="rrll",
                 longtable=True,
-                position="h",
+                position="!h",
                 multicolumn=True,
             )
 
@@ -277,7 +277,7 @@ for title in ["corpus"]:
                 label=f"tab:Phil",
                 column_format="rrll",
                 longtable=True,
-                position="h",
+                position="!h",
                 multicolumn=True,
             )
 
@@ -330,7 +330,7 @@ for title in ["corpus"]:
                 label=f"tab:example",
                 column_format="rrll",
                 longtable=False,
-                position="h",
+                position="!h",
                 multicolumn=True,
             )
 
@@ -393,11 +393,11 @@ for title in ["corpus"]:
                 index=False,
                 na_rep="",
                 float_format="%.2e",
-                caption=f"Count and significance p-value for conjunctions, prepositions, adverbs and punctation significantly more frequent in parentheses for Cavell's corpus",
+                caption=f"Count and significance p-value for conjunctions, prepositions, adverbs and punctuation significantly more frequent in parentheses for Cavell's corpus",
                 label=f"tab:conj",
                 column_format="rrll",
                 longtable=False,
-                position="h",
+                position="!h",
                 multicolumn=True,
             )
 
@@ -461,7 +461,7 @@ for title in ["corpus"]:
                 label=f"tab:Phil",
                 column_format="rrll",
                 longtable=False,
-                position="h",
+                position="!h",
                 multicolumn=True,
             )
 
@@ -500,7 +500,7 @@ for title in dfs:
                 label="tab:CavellDotCorpus",
                 column_format="rrll",
                 longtable=True,
-                position="h",
+                position="!h",
                 multicolumn=True,
             )
 
