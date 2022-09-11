@@ -1,8 +1,9 @@
 txt/*
 paper/*.tex
 paper/*.bib
-paper/cavell.pdf
+paper/cavell*.pdf
 paper/*.synctex.gz
+paper/review_reply.*
 
 __pycache__
 .mypy_cache
